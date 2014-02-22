@@ -20,7 +20,7 @@ public void insertarmetales(){
 
     // 2 numeros aleatorios para el Random
     int Ranx = Randomx.nextInt(10);
-    int Rany = 2 + Randomx.nextInt(6);
+    int Rany = 2 + Randomx.nextInt(3);
 
      //nodo temporal que indica el resultado de la busqueda
      nodo temp = busquedametales(Ranx, Rany);
