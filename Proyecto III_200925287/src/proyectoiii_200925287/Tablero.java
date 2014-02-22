@@ -709,6 +709,17 @@ private  void agregartableroaPanel()
 
 }
 
+  static public void analisis2_reiniciarpartida()
+ {
+    inicializacion();
+    hilo.start();
+    metales reiniciarmetales = new metales();
+    listajugadores reiniciarlistajugadores = new listajugadores();
+    nodo reiniciarnodo = new nodo();
+    
+
+}
+  
 static public void nombresjugadores()
 {
     Jugador1 = JOptionPane.showInputDialog(jPanel1, "NOMBRE DEL JUGADOR 1", "Jugador 1" );
