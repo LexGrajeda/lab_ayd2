@@ -9,7 +9,7 @@ public class nodo{
     int cantidad;
     int poder;
     nodo siguiente;
-
+/*  Hola Mundo   */
     public nodo() {
         jugador = "";
         unidad = "";
