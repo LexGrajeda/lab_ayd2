@@ -709,6 +709,25 @@ private  void agregartableroaPanel()
 
 }
 
+static public void analisis2_nombresjugadores()
+{
+    Jugador1 = JOptionPane.showInputDialog(jPanel1, "NOMBRE DEL JUGADOR 1", "Jugador 1" );
+
+    Jugador2 = JOptionPane.showInputDialog(jPanel1, "NOMBRE DEL JUGADOR 2", "Jugador 2" );
+
+    if (Jugador1 == null)
+        {
+            Jugador1 = "Jugador 1";
+        }
+
+    if (Jugador2 == null)
+        {
+            Jugador2 = "Jugador 2";
+        }
+    inicializacion();
+}
+ 
+ 
 static public void nombresjugadores()
 {
     Jugador1 = JOptionPane.showInputDialog(jPanel1, "NOMBRE DEL JUGADOR 1", "Jugador 1" );
