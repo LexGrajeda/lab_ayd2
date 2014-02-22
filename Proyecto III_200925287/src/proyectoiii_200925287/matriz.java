@@ -13,7 +13,7 @@ public class matriz extends JButton{
 
     matriz()
    {
-       /* jdjfdskfjd */
+       /* Morroco */
         jugador = "";
         posicionx = -1;
         posiciony = -1;
