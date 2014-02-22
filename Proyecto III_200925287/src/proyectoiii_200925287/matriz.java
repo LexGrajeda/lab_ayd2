@@ -13,7 +13,7 @@ public class matriz extends JButton{
 
     matriz()
    {
-       /* Morroco */
+       System.out.println("Analisis2");
         jugador = "";
         posicionx = -1;
         posiciony = -1;
